@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Courseapplication"
         tools:targetApi="31">
         <activity
+            android:name=".Language"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ProfilePhotoResize"
             android:exported="false">
             <meta-data

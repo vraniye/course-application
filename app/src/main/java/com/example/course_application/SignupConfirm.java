@@ -27,7 +27,7 @@ public class SignupConfirm extends AppCompatActivity {
     public void onClickSignUp(View view) {
         try {
             if (edPassword.getText().toString().equals(edPassword2.getText().toString())) {
-                Intent i = new Intent(SignupConfirm.this, Profile.class);
+                Intent i = new Intent(SignupConfirm.this, Language.class);
                 startActivity(i);
             } else {
                 Toast.makeText(getApplicationContext(), "Wrong password", Toast.LENGTH_SHORT).show();

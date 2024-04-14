@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
     public void onClickLogin(View view) {
         try {
             if (edLogin.getText().toString().equals(USER_EMAIL) && edPassword.getText().toString().equals(USER_PASSWORD)) {
-                Intent i = new Intent(Login.this, Profile.class);
+                Intent i = new Intent(Login.this, Language.class);
                 startActivity(i);
             } else {
                 Toast.makeText(getApplicationContext(), "Wrong email or password", Toast.LENGTH_SHORT).show();
