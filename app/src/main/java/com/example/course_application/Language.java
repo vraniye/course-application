@@ -30,7 +30,11 @@ public class Language extends AppCompatActivity {
         btnBr = findViewById(R.id.btnBr);
 
     }
-
+    /**
+     * Надеюсь, эту жесть никто и никогда не увидит
+     *
+     * Мне стыдно :((((
+     * **/
     public void onClickRussian(View view) {
         choosingLanguage = btnRus.getText().toString();
         btnBr.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#FFF6EB")));
