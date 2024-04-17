@@ -30,7 +30,7 @@ public class Animal extends AppCompatActivity {
             public void onClick(View v) {
                 if (userText.getText().toString().isEmpty()){
                     Toast.makeText(getApplicationContext(), "Нашите ответ", Toast.LENGTH_SHORT).show();
-                } else { if (userText.getText().toString().toLowerCase().equals("cat")){
+                } else { if (userText.getText().toString().toLowerCase().equals("hamster")){
                     startActivity(new Intent(Animal.this, Complete.class));
                 }else{
                     startActivity(new Intent(Animal.this, Unsucsess.class));

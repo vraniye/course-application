@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
@@ -45,6 +46,12 @@ public class Login extends AppCompatActivity {
 
     public void onClickSignUp(View view) {
         Intent i = new Intent(Login.this, Signup.class);
+        startActivity(i);
+    }
+
+
+    public void onClickBack(View view){
+        Intent i = new Intent(Login.this, OnBoarding3.class);
         startActivity(i);
     }
 }

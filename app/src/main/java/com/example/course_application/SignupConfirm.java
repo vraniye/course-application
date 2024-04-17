@@ -36,4 +36,9 @@ public class SignupConfirm extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Wrong password", Toast.LENGTH_SHORT).show();
         }
     }
+
+    public void onClickBack(View view){
+        Intent i = new Intent(SignupConfirm.this, Signup.class);
+        startActivity(i);
+    }
 }

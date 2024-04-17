@@ -19,7 +19,7 @@
             android:layout_height="30dp"
             android:layout_centerVertical="true"
             android:layout_marginStart="15dp"
-            android:src="@drawable/arrow3" />
+            android:src="@drawable/back_button" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
         android:layout_marginEnd="20dp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="cucumber"
+        android:text="hamster"
         android:textStyle="bold" />
 
     <TextView
@@ -50,7 +50,7 @@
         android:layout_marginEnd="20dp"
         android:gravity="center"
         android:padding="5dp"
-        android:text="[ˈkjuːkʌmbə]"
+        android:text="[ˈham(p)stər]"
 
         />
 
@@ -91,9 +91,15 @@
         android:layout_marginTop="150dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/round_back_blue"
+        android:backgroundTint="#5B7BFE"
+        android:fontFamily="@font/fredoka_one_regular"
+        android:lineHeight="24dp"
         android:onClick="speak"
         android:padding="15dp"
-        android:text="Check"
-        android:textColor="#FFFF"
-        android:textStyle="bold" />
+        android:text="click to speech"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp" />
 </LinearLayout>

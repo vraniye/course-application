@@ -19,7 +19,7 @@
                 android:layout_height="30dp"
                 android:layout_centerVertical="true"
                 android:layout_marginStart="15dp"
-                android:src="@drawable/arrow3" />
+                android:src="@drawable/back_button" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:gravity="center"
-            android:src="@drawable/luna_cat" />
+            android:src="@drawable/hamstetr" />
 
         <TextView
             android:layout_width="match_parent"
@@ -68,7 +68,13 @@
             android:background="@drawable/round_back_blue"
             android:padding="15dp"
             android:text="Check"
-            android:textColor="#FFFF"
+            android:textColor="@color/white"
+            android:backgroundTint="#5B7BFE"
+            android:fontFamily="@font/fredoka_one_regular"
+            android:lineHeight="24dp"
+            android:textSize="20dp"
+            android:topLeftRadius="12dp"
+            android:topRightRadius="12dp"
             android:textStyle="bold" />
 
 </LinearLayout>

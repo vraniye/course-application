@@ -19,4 +19,9 @@ public class Signup extends AppCompatActivity {
         Intent i = new Intent(Signup.this, SignupConfirm.class);
         startActivity(i);
     }
+
+    public void onClickBack(View view){
+        Intent i = new Intent(Signup.this, Login.class);
+        startActivity(i);
+    }
 }

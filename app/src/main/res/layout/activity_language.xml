@@ -117,7 +117,6 @@
         android:layout_height="49dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="80dp"
-        android:fontFamily="@font/fredoka_one_regular"
         android:lineHeight="28dp"
         android:text="What is your Mother language?"
         android:textAlignment="center"
@@ -161,5 +160,6 @@
         android:topRightRadius="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

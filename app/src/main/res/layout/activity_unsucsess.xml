@@ -20,7 +20,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="15dp"
 
-            android:src="@drawable/arrow3" />
+            android:src="@drawable/back_button" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -59,7 +59,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginEnd="20dp"
         android:gravity="center"
-        android:text="That is Cat"
+        android:text="That is hamster"
         android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -72,7 +72,13 @@
         android:background="@drawable/round_back_blue"
         android:padding="15dp"
         android:text="Next"
-        android:textColor="#FFFF"
+        android:textColor="@color/white"
+        android:backgroundTint="#5B7BFE"
+        android:fontFamily="@font/fredoka_one_regular"
+        android:lineHeight="24dp"
+        android:textSize="20dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
         android:textStyle="bold" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -85,6 +91,12 @@
         android:background="@drawable/round_back_blue"
         android:padding="15dp"
         android:text="Try again"
-        android:textColor="#FFFF"
+        android:textColor="@color/white"
+        android:backgroundTint="#5B7BFE"
+        android:fontFamily="@font/fredoka_one_regular"
+        android:lineHeight="24dp"
+        android:textSize="20dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp"
         android:textStyle="bold" />
 </LinearLayout>

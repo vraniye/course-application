@@ -27,12 +27,12 @@ public class WordResult extends AppCompatActivity {
         final String getselectedAnsw = getIntent().getStringExtra("selectedAnsw");
         final ImageView btnBack2 = findViewById(R.id.btnBack2);
         btnAnswer1 = findViewById(R.id.btnAnsw1);
-        btnAnswer2 = findViewById(R.id.btnAnsw2);
+        btnAnswer2 = findViewById(R.id.btnAnsw4);
         btnAnswer3 = findViewById(R.id.btnAnsw3);
-        btnAnswer4 = findViewById(R.id.btnAnsw4);
+        btnAnswer4 = findViewById(R.id.btnAnsw2);
         btnNext = findViewById(R.id.btnNext2);
 
-        if (getselectedAnsw.equals("муха")){
+        if (getselectedAnsw.equals("кочегар")){
             btnAnswer1.setBackgroundResource(R.drawable.round_back_orange);
             btnAnswer1.setTextColor(Color.parseColor("#FFFFFF"));
             btnAnswer2.setBackgroundResource(R.drawable.round_back_green);
@@ -41,7 +41,7 @@ public class WordResult extends AppCompatActivity {
             btnAnswer3.setTextColor(Color.parseColor("#000000"));
             btnAnswer4.setBackgroundResource(R.drawable.round_back_gray);
             btnAnswer4.setTextColor(Color.parseColor("#000000"));
-        } else if (getselectedAnsw.equals("садовник")) {
+        } else if (getselectedAnsw.equals("морковь")) {
             btnAnswer1.setBackgroundResource(R.drawable.round_back_gray);
             btnAnswer1.setTextColor(Color.parseColor("#000000"));
             btnAnswer2.setBackgroundResource(R.drawable.round_back_green);
@@ -50,7 +50,7 @@ public class WordResult extends AppCompatActivity {
             btnAnswer3.setTextColor(Color.parseColor("#000000"));
             btnAnswer4.setBackgroundResource(R.drawable.round_back_gray);
             btnAnswer4.setTextColor(Color.parseColor("#000000"));
-        } else if (getselectedAnsw.equals("гладиолус")) {
+        } else if (getselectedAnsw.equals("кот")) {
             btnAnswer1.setBackgroundResource(R.drawable.round_back_gray);
             btnAnswer1.setTextColor(Color.parseColor("#000000"));
             btnAnswer2.setBackgroundResource(R.drawable.round_back_green);
@@ -59,7 +59,7 @@ public class WordResult extends AppCompatActivity {
             btnAnswer3.setTextColor(Color.parseColor("#FFFFFF"));
             btnAnswer4.setBackgroundResource(R.drawable.round_back_gray);
             btnAnswer4.setTextColor(Color.parseColor("#000000"));
-        } else if (getselectedAnsw.equals("собака")){
+        } else if (getselectedAnsw.equals("свекла")){
             btnAnswer1.setBackgroundResource(R.drawable.round_back_gray);
             btnAnswer1.setTextColor(Color.parseColor("#000000"));
             btnAnswer2.setBackgroundResource(R.drawable.round_back_green);

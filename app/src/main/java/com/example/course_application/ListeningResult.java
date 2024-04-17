@@ -24,7 +24,7 @@ public class ListeningResult extends AppCompatActivity {
         final String answer = getIntent().getStringExtra("answer");
         System.out.println(answer);
 
-        if (answer.equals("cucumber")){
+        if (answer.equals("hamster")){
             userText.setText(answer);
             userText.setTextColor(Color.parseColor("#5ba890"));
         }else{

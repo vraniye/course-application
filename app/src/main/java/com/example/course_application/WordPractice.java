@@ -25,15 +25,15 @@ public class WordPractice extends AppCompatActivity {
         setContentView(R.layout.activity_word_practice);
         final ImageView btnBack2 = findViewById(R.id.btnBack2);
         btnAnswer1 = findViewById(R.id.btnAnsw1);
-        btnAnswer2 = findViewById(R.id.btnAnsw2);
+        btnAnswer2 = findViewById(R.id.btnAnsw4);
         btnAnswer3 = findViewById(R.id.btnAnsw3);
-        btnAnswer4 = findViewById(R.id.btnAnsw4);
+        btnAnswer4 = findViewById(R.id.btnAnsw2);
         btnCheck = findViewById(R.id.btnCheck2);
 
         btnAnswer1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedAnsw = "муха";
+                selectedAnsw = "кочегар";
                 btnAnswer1.setBackgroundResource(R.drawable.round_back_blue);
                 btnAnswer1.setTextColor(Color.parseColor("#FFFFFF"));
                 btnAnswer2.setBackgroundResource(R.drawable.round_back_gray);
@@ -48,7 +48,7 @@ public class WordPractice extends AppCompatActivity {
         btnAnswer2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedAnsw = "садовник";
+                selectedAnsw = "свекла";
                 btnAnswer1.setBackgroundResource(R.drawable.round_back_gray);
                 btnAnswer1.setTextColor(Color.parseColor("#000000"));
                 btnAnswer2.setBackgroundResource(R.drawable.round_back_blue);
@@ -63,7 +63,7 @@ public class WordPractice extends AppCompatActivity {
         btnAnswer3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedAnsw = "гладиолус";
+                selectedAnsw = "кот";
                 btnAnswer1.setBackgroundResource(R.drawable.round_back_gray);
                 btnAnswer1.setTextColor(Color.parseColor("#000000"));
                 btnAnswer2.setBackgroundResource(R.drawable.round_back_gray);
@@ -78,7 +78,7 @@ public class WordPractice extends AppCompatActivity {
         btnAnswer4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                selectedAnsw = "собака";
+                selectedAnsw = "морковь";
                 btnAnswer1.setBackgroundResource(R.drawable.round_back_gray);
                 btnAnswer1.setTextColor(Color.parseColor("#000000"));
                 btnAnswer2.setBackgroundResource(R.drawable.round_back_gray);
